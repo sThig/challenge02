@@ -1,4 +1,6 @@
-function reverseWord(str) {
+//Create a function that accepts a String as an argument and returns the same string, but reversed. Make sure the function handles invalid argument types exactly as defined below.
+
+function reverseString(str) {
   if (typeof str === 'string') {
     return str
       .split('')
@@ -13,4 +15,4 @@ function reverseWord(str) {
   }
 }
 
-reverseWord('Pensacola Beach');
+reverseString('Pensacola Beach');
